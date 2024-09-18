@@ -1,0 +1,127 @@
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(217, 54%, 11%);
+}
+
+
+
+.container {
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow:  2px 40px 60px solid hsl(222, 15%, 13%);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.foto img {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    }
+
+    .subtitulo {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column; 
+        margin-top: 10%;
+        color: hsl(0, 0%, 100%);
+        font-size: 21px;
+        text-align: left;
+    }
+    
+    .text {
+        align-items: flex-start;
+        margin-top: 5%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column; 
+        font-size: 16px;
+        color:hsl(215, 51%, 70%);
+        text-align: left; 
+        }
+
+    .container-2 {
+        margin-top: 7%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+      
+    }
+    
+    .text-2 {
+        color: hsl(178, 100%, 50%);        ; 
+        font-size: 16px; 
+    }
+
+    .text-2::before {
+        content: url('https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=024'); 
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        margin-right: 5px; 
+    }
+
+    .text-2 svg{
+        color: hsl(178, 100%, 50%)s;
+    }
+    
+    .text-3 {
+        color:hsl(215, 51%, 70%);
+        font-size: 16px; 
+    }
+
+    .container-3 {
+        width: 80%;
+        margin: 0 auto; 
+        padding: 20px;
+      }
+      
+      .linha {
+        width: 100%;
+        height: 0.5px; 
+        background-color: hsl(0, 0%, 100%); 
+        margin: 0 auto;
+      }
+
+      .container-4 {
+        display: flex;
+        align-items: center;
+      }
+      
+      .imagem {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+        border: 1px solid white;
+      }
+      
+      .texto {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .criacao {
+        color:hsl(215, 51%, 70%); 
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      
+      .autor {
+        color: hsl(0, 0%, 100%); 
+      }
+    
+
+    
+      
